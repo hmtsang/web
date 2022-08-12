@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.box{
+  width: 700px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.box h1{
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 60;
+}
+
+.box h5{
+  font-size: 25px;
+  font-weight: 70;
+}
+
+.box h5 ~ h5{
+  margin-top: none;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.box ul a{
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  transition: all ease-in-out 250ms;
+}
+
+.box2{
+  width: 700px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+  text-align: left;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.box2 h2{
+  font-size: 30px;
+  letter-spacing: auto;
+  font-weight: 60;
+}
+
+.box2 p{
+  font-size: 20px;
+  letter-spacing: auto;
+  font-weight: 60;
+}
+
+.box2 h2 + p{
+  padding-top: 30px;
+}
+
+.box2 p + p{
+  padding: none;
+}
